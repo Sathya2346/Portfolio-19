@@ -1,0 +1,94 @@
+.Portfolio{
+    background-color:black;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 800px;
+    background-color:white;
+    padding:10px 16px;
+    position:sticky ;
+    top: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav>a:hover{
+    color: rgb(60, 170, 170);
+}
+.Home{
+    color: aliceblue;
+    display: flex;
+}
+.homecon{
+    text-align: center;
+    padding-top: 20%;
+    font-size:xx-large;
+}
+.homecon:hover{
+    color: aquamarine;
+}
+.About{
+    height: auto;
+    margin: 5%;
+    padding-top: 5%;
+}
+.about1{
+    display: flex;
+
+}
+.About>h3,h1{
+    color: aliceblue;
+    text-align: center;
+}
+.aboutimg{
+    width: 35%;
+    padding-left: 3%;
+    margin: 0;
+}
+.img1{
+    width: 85%;
+    padding-bottom: 3%;
+}
+.abcon2{
+    padding-top: 5%;
+    text-indent: 3%;
+    color: aliceblue;
+    width: 60%;
+}
+
+
+h4,h1{
+    color: aliceblue;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+.Resume{
+    color: aliceblue;
+    margin: 5%;
+    height: 100vh;
+}
+.rescon{
+    display: flex;
+}
+.education{
+    width: 50%;
+    padding-left: 15%;
+}
+td{
+    background-color: rgb(64, 37, 37);
+    padding: 10%;
+    height: 20vh;
+    width: 300px;
+    border-left: 3px solid rgb(128, 193, 128);
+}
+.Contact{
+    color: aliceblue;
+    margin: 5%;
+    height: 70vh;    
+}
+.contact1>h3{
+    text-align: center;
+}
+.contactcon{
+    text-indent: 30%;
+    padding-top: 3%;
+}
